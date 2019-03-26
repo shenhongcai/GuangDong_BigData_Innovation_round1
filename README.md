@@ -1,4 +1,4 @@
-#运行环境：
+# 运行环境：
     操作系统(os)：ubuntu14.04.5
     python版本： python3.5.2
     packages ：  pandas 0.23.4; 
@@ -15,7 +15,7 @@
 参考文献：Zoph B, Vasudevan V, Shlens J, et al. Learning Transferable Architectures for Scalable Image Recognition[J]. 2017.
 本设计为单模型，没有使用模型融合，nasnet为我们的核心网络模型
 
-#数据集说明：
+# 数据集说明：
   由于原始数据集存在数据不均衡，标注错误，某些类别下数据差异过大（如擦花（defect2），脏点（defect10），其他（defect11）），我们对原始数据集做了一下处理。
   一， 删除掉错误标注图片
         如guangdong_round1_train2_20180916中擦花类别中的图片(擦花20180830164545对照样本.jpg)
