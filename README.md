@@ -11,7 +11,7 @@
                 opencv-python 3.4.3.18
 # 算法模型
 本设计使用了谷歌推出的nasnet开源模型
-下载链接：-> https://github.com/AkatsukiCC/pretrained-models.pytorch
+下载链接： （https://github.com/AkatsukiCC/pretrained-models.pytorch）
 参考文献：Zoph B, Vasudevan V, Shlens J, et al. Learning Transferable Architectures for Scalable Image Recognition[J]. 2017.
 本设计为单模型，没有使用模型融合，nasnet为我们的核心网络模型
 
@@ -21,7 +21,7 @@
         如guangdong_round1_train2_20180916中擦花类别中的图片(擦花20180830164545对照样本.jpg)
   二， 对某些类别做了更细的划分
        |项目|说明|
-       |----|----|
+       | ---- | ---- |
        |1.对于擦花类别，我们将其细分为3个新类别:|  擦花1(defect2):细长条形的擦伤，擦花2(defect12):  伤口面积较宽，伤口较浅的擦伤
         擦花3(defect16):  黄色长条铝合金上分布较广的擦伤|
        |2.对于凸粉，我们将其细分为2个新类别:|
@@ -41,7 +41,6 @@
              image_mirror_v2.py
              imageRotate.py
     以guangdong_round1_train2_20180916文件中的norm类别为基准(1018张)，每个类别下的图片通过数据增强后数目如下
-    
        |瑕疵类型|数量|
        | -- | -- |
        |defect1(不导电)|846|
