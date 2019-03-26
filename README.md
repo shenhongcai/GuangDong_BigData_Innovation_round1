@@ -20,10 +20,11 @@
   一， 删除掉错误标注图片
         如guangdong_round1_train2_20180916中擦花类别中的图片(擦花20180830164545对照样本.jpg)
   二， 对某些类别做了更细的划分
-       1.对于擦花类别，我们将其细分为3个新类别  ：
-              擦花1(defect2)：细长条形的擦伤
+       |1.对于擦花类别，我们将其细分为3个新类别:| |
+              擦花1(defect2):细长条形的擦伤
               擦花2(defect12):  伤口面积较宽，伤口较浅的擦伤
-              擦花3(defect16):  黄色长条铝合金上分布较广的擦伤
+              擦花3(defect16):  黄色长条铝合金上分布较广的擦伤|
+       | ----- | |-------|
        2.对于凸粉，我们将其细分为2个新类别：
               凸粉1（defect8）：长条形香槟金色铝合金
               凸粉2 （defect14）：乳白色铝合金
@@ -64,6 +65,15 @@
 | 瑕疵名称 |瑕疵图片示例 |
 | ------ | ------ |
 | 擦花（擦伤） |![](https://github.com/shenhongcai/ImageStore/blob/master/cahua.png)|
-| 杂色 | 图片2 |
-| 
+| 杂色 | ![](https://github.com/shenhongcai/ImageStore/blob/master/zase.png)|
+| 漏底 | ![](https://github.com/shenhongcai/ImageStore/blob/master/loudi.png)|
+| 不导电 | ![](https://github.com/shenhongcai/ImageStore/blob/master/budaodian.png)|
+| 橘皮 | ![](https://github.com/shenhongcai/ImageStore/blob/master/jupi.png)|
+| 喷流 | ![](https://github.com/shenhongcai/ImageStore/blob/master/penliu.png)|
+| 漆泡 | ![](https://github.com/shenhongcai/ImageStore/blob/master/qipao.png)|
+| 起坑 | ![](https://github.com/shenhongcai/ImageStore/blob/master/qikeng.png) |
+| 脏点 | ![](https://github.com/shenhongcai/ImageStore/blob/master/zangdian.png) |
+| 角位漏底 | ![](https://github.com/shenhongcai/ImageStore/blob/master/jiapweiloudi.png)|
+
+
 
