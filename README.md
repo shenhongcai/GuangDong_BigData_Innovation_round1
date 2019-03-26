@@ -41,14 +41,14 @@
              image_mirror_v2.py
              imageRotate.py
     以guangdong_round1_train2_20180916文件中的norm类别为基准(1018张)，每个类别下的图片通过数据增强后数目如下
-       |瑕疵类型|数量|
-       | -- | -- |
-       |defect1(不导电)|846|
-       |defect2(擦花1)|702|
-       |defect3(横条压凹)|741|
-       |defect4(桔皮)|747|
-       |defect5(漏底)|794|
-       |defect6(碰伤)|748|
+    |瑕疵类型|数量|
+    | -- | -- |
+    |defect1(不导电)|846|
+    |defect2(擦花1)|702|
+    |defect3(横条压凹)|741|
+    |defect4(桔皮)|747|
+    |defect5(漏底)|794|
+    |defect6(碰伤)|748|
        |defect7(起坑)|735|
        |defect8(凸粉1)|807|
        |defect9(涂层开裂)|843|
@@ -78,5 +78,11 @@
 | 脏点 | ![](https://github.com/shenhongcai/ImageStore/blob/master/zangdian.png) |
 | 角位漏底 | ![](https://github.com/shenhongcai/ImageStore/blob/master/jiapweiloudi.png)|
 
+
+# 数据集下载链接
+
+|时候的|经济结点|
+|---|----|
+|1你电话|的经济代价|
 
 
