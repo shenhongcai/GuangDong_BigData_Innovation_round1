@@ -43,6 +43,8 @@
              image_mirror_v2.py
              imageRotate.py
     以guangdong_round1_train2_20180916文件中的norm类别为基准(1018张)，每个类别下的图片通过数据增强后数目如下
+# 调整
+
 |瑕疵类型|数量|
 | -- | -- |
 |defect1(不导电)|846|
