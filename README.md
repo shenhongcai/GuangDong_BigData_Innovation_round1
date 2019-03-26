@@ -10,12 +10,14 @@
                 pretrainedmodels  0.7.0;
                 opencv-python 3.4.3.18
 # 算法模型
+
 本设计使用了谷歌推出的nasnet开源模型
 下载链接： （https://github.com/AkatsukiCC/pretrained-models.pytorch）
 参考文献：Zoph B, Vasudevan V, Shlens J, et al. Learning Transferable Architectures for Scalable Image Recognition[J]. 2017.
 本设计为单模型，没有使用模型融合，nasnet为我们的核心网络模型
 
 # 数据集说明：
+
   由于原始数据集存在数据不均衡，标注错误，某些类别下数据差异过大（如擦花（defect2），脏点（defect10），其他（defect11）），我们对原始数据集做了一下处理。
   一， 删除掉错误标注图片
         如guangdong_round1_train2_20180916中擦花类别中的图片(擦花20180830164545对照样本.jpg)
@@ -41,26 +43,26 @@
              image_mirror_v2.py
              imageRotate.py
     以guangdong_round1_train2_20180916文件中的norm类别为基准(1018张)，每个类别下的图片通过数据增强后数目如下
-    |瑕疵类型|数量|
-    | -- | -- |
-    |defect1(不导电)|846|
-    |defect2(擦花1)|702|
-    |defect3(横条压凹)|741|
-    |defect4(桔皮)|747|
-    |defect5(漏底)|794|
-    |defect6(碰伤)|748|
-       |defect7(起坑)|735|
-       |defect8(凸粉1)|807|
-       |defect9(涂层开裂)|843|
-       |defect10(脏点1)|456|
-       |defect11(其他1)|1136|
-       |defect12(擦花2)|456|
-       |defect13(其他2)|560|
-       |defect14(凸粉2)|118|
-       |defect15(脏点2)|630|
-       |defect16(擦花3)|648|
-       |defect17(脏点3)|608|
-       |norm|1018|
+|瑕疵类型|数量|
+| -- | -- |
+|defect1(不导电)|846|
+|defect2(擦花1)|702|
+|defect3(横条压凹)|741|
+|defect4(桔皮)|747|
+|defect5(漏底)|794|
+|defect6(碰伤)|748|
+|defect7(起坑)|735|
+|defect8(凸粉1)|807|
+|defect9(涂层开裂)|843|
+|defect10(脏点1)|456|
+|defect11(其他1)|1136|
+|defect12(擦花2)|456|
+|defect13(其他2)|560|
+|defect14(凸粉2)|118|
+|defect15(脏点2)|630|
+|defect16(擦花3)|648|
+|defect17(脏点3)|608|
+|norm|1018|
 
 
 # 瑕疵样例
@@ -81,8 +83,6 @@
 
 # 数据集下载链接
 
-|时候的|经济结点|
-|---|----|
-|1你电话|的经济代价|
+https://tianchi.aliyun.com/competition/entrance/231682/information
 
 
